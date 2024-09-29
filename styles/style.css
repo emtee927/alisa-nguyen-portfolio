@@ -15,6 +15,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jersey+20&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 
 /*
 
@@ -81,30 +82,30 @@ html {
 /* TODO: Adjust the variables below, create new variables as desired, and delete the variables that you do not want to use. */
 
 :root {
-  --body-typeface: "Inter", sans-serif;
+  --body-typeface: "Fredoka", sans-serif;
   --heading-typeface: "Lilita One", sans-serif;
   --project-title-typeface: "Lilita One", sans-serif;
   --background-color: #fdfdfd;
   --background-color-about: #f5f5f5;
-  --background-color-footer: #f5f5f5;
+  --background-color-footer: #94fc0b;
   --alt-background-color: #000000;
   --background-color-holding-page: #a7cbff;
   --h1-color: #0C4A8B;
   --h2-color: #0C4A8B;
-  --h3-color: #5200ff;
-  --h4-color: #5200ff;
-  --h5-color: #5200ff;
-  --h6-color: #5200ff;
+  --h3-color: #000000;
+  --h4-color: #000000;
+  --h5-color: #0C4A8B;
+  --h6-color:#0C4A8B;
   --primary-text-color: #222;
   --holding-page-title-color: #0C4A8B;
   --accent-color: #5200ff;
   --overlay-color: #10488A;
   --overlay-title-color: #f4f5f4;
-  --overlay-description-color: #f9b5b2;
+  --overlay-description-color: #ffffff;
   --hyperlink-color: #5200ff;
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
-  --visited-color: #5200ff;
+  --visited-color: #0C4A8B;
   --project-title-color: #0C4A8B;
   --project-sidebar-background-color: transparent;
   --project-sidebar-text-color: black;
@@ -333,7 +334,7 @@ a:active {
 }
 
 .logo {
-  width: 3rem;
+  width: 10rem;
   /* TODO: Adjust the width of the logo on mobile devices here. */
 }
 
@@ -378,6 +379,8 @@ a:active {
 .work-wrapper {
   flex: 1;
 }
+
+.portfolio {background: hotpink;}
 
 /* Padding around work grid and project page */
 .portfolio,
@@ -526,7 +529,7 @@ a:active {
 /* Sidebar */
 .project-aside {
   width: 100%;
-  padding: 1rem;
+  padding: 0rem;
   display: flex;
   flex-direction: column;
   color: var(--project-sidebar-text-color);
@@ -689,7 +692,7 @@ a:active {
   }
 
   h1 {
-    font-size: 4.275rem;
+    font-size: 3rem;
   }
 
   h2 {
@@ -701,7 +704,7 @@ a:active {
   }
 
   .logo {
-    width: 5rem;
+    width: 15rem;
     /* TODO: Adjust the width of the logo on large devices here. */
   }
 
