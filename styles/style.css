@@ -86,35 +86,36 @@ html {
   --heading-typeface: "Lilita One", sans-serif;
   --project-title-typeface: "Lilita One", sans-serif;
   --background-color: #fdfdfd;
-  --background-color-about: #f5f5f5;
-  --background-color-footer: #94fc0b;
+  --background-color-about: #fdfdfd;
+  --background-color-footer: #fbcccc;
   --alt-background-color: #000000;
-  --background-color-holding-page: #a7cbff;
-  --h1-color: #0C4A8B;
-  --h2-color: #0C4A8B;
-  --h3-color: #000000;
+  --background-color-holding-page: #fbcccc;
+  --h1-color: #0b285f;
+  --h2-color: #1b74b9;
+  --h3-color: #019966;
   --h4-color: #000000;
-  --h5-color: #0C4A8B;
-  --h6-color:#0C4A8B;
+  --h5-color: #0b285f;
+  --h6-color:#1b74b9;
   --primary-text-color: #222;
-  --holding-page-title-color: #0C4A8B;
+  --holding-page-title-color: #0b285f;
   --accent-color: #5200ff;
-  --overlay-color: #10488A;
-  --overlay-title-color: #f4f5f4;
-  --overlay-description-color: #ffffff;
-  --hyperlink-color: #5200ff;
+  --overlay-color: #1b74b9;
+  --overlay-title-color: #ffcd34;
+  --overlay-description-color: #fdfdfd;
+  --overlay-sub-color: #fdfdfd; 
+  --hyperlink-color: #1b74b9;
   --hyperlink-alternate-color: orangered;
-  --hover-color: #111;
-  --visited-color: #0C4A8B;
-  --project-title-color: #0C4A8B;
+  --hover-color: #019966;
+  --visited-color: #0b285f;
+  --project-title-color: #0b285f;
   --project-sidebar-background-color: transparent;
   --project-sidebar-text-color: black;
   --heart-color: darkred;
   --holding-page-footer-color: #f8f8ff;
-  --text-selection-background-color: #5200ff;
-  --linear-gradient-color-1: #ff057c;
-  --linear-gradient-color-2: #8d0b93;
-  --linear-gradient-color-3: #321575;
+  --text-selection-background-color: #1b74b9;
+  --linear-gradient-color-1: #fbcccc;
+  --linear-gradient-color-2: #fdfdfd;
+  --linear-gradient-color-3: #1b74b9;
   --stroke-shadow-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -162,8 +163,8 @@ h1 {
 }
 
 h2 {
-  font-size: 2.25rem;
-  font-family: var(--heading-typeface);
+  font-size: 2rem;
+  font-family: var(--body-typeface);
   margin-bottom: 1rem;
   color: var(--h2-color);
 }
@@ -176,13 +177,14 @@ h3 {
 }
 
 h4 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
   color: var(--h4-color);
 }
 
 h5 {
-  font-size: 1.1rem;
+  font-size: 2rem;
+  font-family: var(--heading-typeface);
   margin-bottom: 1rem;
   color: var(--h5-color);
 }
@@ -227,6 +229,9 @@ em {
   color: var(--overlay-description-color);
 }
 
+.overlay-sub {
+  color: var(--overlay-sub-color);
+}
 /* Hyperlink Styles */
 
 a:link {
@@ -272,11 +277,19 @@ a:active {
   color: var(--hyperlink-alternate-color);
 }
 
+.custom-navigation {
+  font-size: 1.5rem;
+  font-family: var(--heading-typeface);
+  color: var(--h1-color);
+}
+
 .custom-navigation:hover {
+
   background: url(assets/temp/heading-background.svg);
   background-size: 15%;
   background-repeat: no-repeat;
   background-position: center center;
+  transform: rotate('45deg');
 }
 
 .heart {
@@ -321,21 +334,37 @@ a:active {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(75deg,white,rgba(253, 197, 197, 0.535), var(--background-color-holding-page));
+  background: linear-gradient(var(--background-color-footer), var(--linear-gradient-color-1),var(--linear-gradient-color-2));
   ;
 }
 
 .branding-navigation {
+  min-width: 300px;
+  height: 36px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 1rem;
-  align-items: flex-start;
+  align-items: center;
+  justify-content:space-evenly;
 }
 
 .logo {
-  width: 10rem;
+  width: 3rem;
+
   /* TODO: Adjust the width of the logo on mobile devices here. */
+}
+
+.name-tag{
+  width: 25rem;
+  padding-bottom: 20px;
+}
+
+.hero-header {
+  background-color: var(--background-color);
+  width: 100%;
+  height: 75px;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 .hero-headline-wrapper {
@@ -357,6 +386,7 @@ a:active {
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  padding: 3rem;
 }
 
 .hero-footer-navigation {
@@ -380,19 +410,19 @@ a:active {
   flex: 1;
 }
 
-.portfolio {background: hotpink;}
+.portfolio {background:var(--background-color);}
 
 /* Padding around work grid and project page */
 .portfolio,
 .project-wrapper {
-  padding: 0.25rem;
+  padding: 0rem;
 }
 
 /* Defining the work page grid */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 1rem;
+  grid-gap: 0rem;
   /* Magical, media-query-less responsiveness is achieved using the repeat() function and the auto placement keywords. To achieve wrapping, we can use the auto-fit. If you're using auto-fit, the content will stretch to fill the entire row width.  Specify a minimum width for the columns, using the minmax() function. The 1fr is what tells the browser to distribute the space between the columns so that each column equally gets one fraction of that space.  */
 }
 
@@ -529,7 +559,7 @@ a:active {
 /* Sidebar */
 .project-aside {
   width: 100%;
-  padding: 0rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   color: var(--project-sidebar-text-color);
@@ -703,22 +733,41 @@ a:active {
     font-size: 1.625rem;
   }
 
+  h6 {
+    font-size: 1.5rem;
+  }
+
   .logo {
-    width: 15rem;
+    width: 5rem;
+    padding: 5px;
     /* TODO: Adjust the width of the logo on large devices here. */
+  }
+
+  .name-tag {
+    width:40rem;
+  }
+
+  .custom-navigation {
+    padding:30px;
+    font-size: 2rem;
   }
 
   .hero {
     min-height: 100vh;
   }
+  .hero-header {
+    height: 100px;
+    padding: 25px;
+    padding-right: 7%;
+  }
 
   .hero-headline-wrapper {
-    padding: 4rem 8rem;
+    padding: 6rem 15rem;
   }
 
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    grid-gap: 1rem;
+    grid-gap: 0rem;
   }
 
   /* Grayscale filter with full-colour on hover and tap */
