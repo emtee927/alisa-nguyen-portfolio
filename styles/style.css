@@ -111,7 +111,7 @@ html {
   --project-sidebar-background-color: transparent;
   --project-sidebar-text-color: black;
   --heart-color: darkred;
-  --holding-page-footer-color: #f8f8ff;
+  --holding-page-footer-color: #0b285f;
   --text-selection-background-color: #1b74b9;
   --linear-gradient-color-1: #fbcccc;
   --linear-gradient-color-2: #fdfdfd;
@@ -289,7 +289,7 @@ a:active {
   background-size: 15%;
   background-repeat: no-repeat;
   background-position: center center;
-  transform: rotate('45deg');
+  transform: rotate(20deg);
 }
 
 .heart {
@@ -636,16 +636,17 @@ a:active {
   width: 100%;
   min-height: 100vh;
   /* TODO: Delete the following if you do not want a grainy gradient background on index.html. Be careful not to delete the closing } */
-  background: linear-gradient(75deg,white,rgba(253, 197, 197, 0.535), var(--background-color-holding-page)), url(/assets/temp/noise.svg);
+  background: linear-gradient(var(--background-color-footer), var(--linear-gradient-color-1),var(--linear-gradient-color-2)), url(/assets/temp/noise.svg);
   /* For more on grainy gradients see https://grainy-gradients.vercel.app/ */
 }
 
 .holding-page-animation {
-  margin-bottom: 1rem;
+  width: 250px;
+  margin-bottom: 10px;
 }
 
 .holding-page-title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--holding-page-title-color);
 }
 
