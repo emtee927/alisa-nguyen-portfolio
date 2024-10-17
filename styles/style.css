@@ -10,12 +10,8 @@
 
 /* TODO: Delete the Google Fonts below and add the Google Fonts you want to use on your site. Each Google font that you load will slightly increase the download speed of your site so make sure to only included necessary fonts here. */
 
-@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jersey+20&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
 
 /*
 
@@ -95,14 +91,14 @@ html {
   --h3-color: #019966;
   --h4-color: #000000;
   --h5-color: #0b285f;
-  --h6-color:#1b74b9;
+  --h6-color: #1b74b9;
   --primary-text-color: #222;
   --holding-page-title-color: #0b285f;
   --accent-color: #5200ff;
   --overlay-color: #1b74b9;
   --overlay-title-color: #ffcd34;
   --overlay-description-color: #fdfdfd;
-  --overlay-sub-color: #fdfdfd; 
+  --overlay-sub-color: #fdfdfd;
   --hyperlink-color: #1b74b9;
   --hyperlink-alternate-color: orangered;
   --hover-color: #019966;
@@ -283,15 +279,6 @@ a:active {
   color: var(--h1-color);
 }
 
-.custom-navigation:hover {
-
-  background: url(assets/temp/heading-background.svg);
-  background-size: 15%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  transform: rotate(20deg);
-}
-
 .heart {
   color: var(--heart-color);
 }
@@ -334,8 +321,11 @@ a:active {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(var(--background-color-footer), var(--linear-gradient-color-1),var(--linear-gradient-color-2));
-  ;
+  background: linear-gradient(
+    var(--background-color-footer),
+    var(--linear-gradient-color-1),
+    var(--linear-gradient-color-2)
+  );
 }
 
 .branding-navigation {
@@ -343,7 +333,7 @@ a:active {
   height: 36px;
   display: flex;
   align-items: center;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
 }
 
 .logo {
@@ -352,7 +342,7 @@ a:active {
   /* TODO: Adjust the width of the logo on mobile devices here. */
 }
 
-.name-tag{
+.name-tag {
   width: 25rem;
   padding-bottom: 20px;
 }
@@ -361,8 +351,8 @@ a:active {
   background-color: var(--background-color);
   width: 100%;
   height: 75px;
-  display:flex;
-  align-items:center;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
   padding: 20px;
 }
@@ -410,7 +400,9 @@ a:active {
   flex: 1;
 }
 
-.portfolio {background:var(--background-color);}
+.portfolio {
+  background: var(--background-color);
+}
 
 /* Padding around work grid and project page */
 .portfolio,
@@ -614,7 +606,6 @@ a:active {
 .project-details {
   width: 100%;
   padding: 1rem;
-
 }
 
 /* 
@@ -636,7 +627,12 @@ a:active {
   width: 100%;
   min-height: 100vh;
   /* TODO: Delete the following if you do not want a grainy gradient background on index.html. Be careful not to delete the closing } */
-  background: linear-gradient(var(--background-color-footer), var(--linear-gradient-color-1),var(--linear-gradient-color-2)), url(/assets/temp/noise.svg);
+  background: linear-gradient(
+      var(--background-color-footer),
+      var(--linear-gradient-color-1),
+      var(--linear-gradient-color-2)
+    ),
+    url(/assets/temp/noise.svg);
   /* For more on grainy gradients see https://grainy-gradients.vercel.app/ */
 }
 
@@ -745,12 +741,18 @@ a:active {
   }
 
   .name-tag {
-    width:40rem;
+    width: 40rem;
   }
 
   .custom-navigation {
-    padding:30px;
+    display: block;
+    padding: 30px;
     font-size: 2rem;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  .custom-navigation:hover {
+    transform: rotate(-20deg);
   }
 
   .hero {
