@@ -281,7 +281,7 @@ a:active {
 }
 
 .custom-category {
-  background-color: var(--background-color-footer);
+  background-color: var(--background-color);
   border-radius: 20px;
   border: 5px solid black;
   border-width: 2px;
@@ -516,8 +516,8 @@ a:active {
 }
 
 .illustration-page-grid-item {
-  background-color: #f0f0f0;
-  border: 2px solid #ccc;
+  /* background-color: #f0f0f0;
+  border: 2px solid #ccc; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -565,11 +565,13 @@ a:active {
   grid-row: 4 / 5;
 }
 
-.about-heading {font-size: 3rem; color: var(--accent-color);}
-.about-text {color: white;}
-
-
-
+.about-heading {
+  font-size: 3rem;
+  color: var(--accent-color);
+}
+.about-text {
+  color: white;
+}
 
 /* Global Footer
 
