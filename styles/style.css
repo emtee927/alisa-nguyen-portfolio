@@ -337,6 +337,7 @@ a:active {
 */
 
 .hero {
+  width: 100%;
   min-height: 80vh;
   display: flex;
   flex-direction: column;
@@ -753,6 +754,32 @@ a:active {
 /* TODO: Customize your 404 Error Page */
 
 /* The best 404 pages have become an art in themselves. Your 404 error page is an opportunity to make a memorable impression on your visitors when they don’t land exactly where they hoped. */
+
+.error-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.error-header {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.error-wrapper {
+  display: flex;
+  flex-direction: row;
+  border: 5px dotted hotpink;
+  width: 80%;
+  padding: 4rem;
+}
+
+.error-image,
+.error-text {
+  width: 50%;
+}
 
 /*
 
