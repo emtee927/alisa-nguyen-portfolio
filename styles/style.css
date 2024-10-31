@@ -461,6 +461,10 @@ a:active {
   /* Required to contain overlay size */
 }
 
+.img {
+  width: 100%;
+}
+
 /* Overlay */
 .overlay {
   position: absolute;
