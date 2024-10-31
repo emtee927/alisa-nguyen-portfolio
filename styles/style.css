@@ -53,7 +53,8 @@ No media query for `xs` since this is the default in Bootstrap
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  cursor: url("../assets/temp/up-cursor.png"), auto !important;
+  cursor: url("../assets/branding-images/cursor-temp.png"), auto !important;
+
   /* TODO: Change the url above to add a custom cursor. Delete the line above if you want to use the default browser cursor. */
 }
 
@@ -246,6 +247,10 @@ a:hover {
 
 a:focus {
   outline: 1px solid var(--accent-color);
+}
+
+a:hover {
+  cursor: url(../assets/branding-images/cursor-hover-temp.png), auto;
 }
 
 a:active {
