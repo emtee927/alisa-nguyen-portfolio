@@ -250,7 +250,7 @@ a:focus {
 }
 
 a:hover {
-  cursor: url(../assets/branding-images/cursor-hover-temp.png), auto;
+  cursor: url(../assets/branding-images/cursor-hover-temp.png), auto !important;
 }
 
 a:active {
@@ -459,10 +459,6 @@ a:active {
   height: auto;
   position: relative;
   /* Required to contain overlay size */
-}
-
-.img {
-  width: 100%;
 }
 
 /* Overlay */
