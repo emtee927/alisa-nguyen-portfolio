@@ -99,7 +99,7 @@ html {
   --navy-blue: #0b285f;
   --overlay-color: #1b74b9;
   --overlay-title-color: #ffcd34;
-  --overlay-description-color: #fdfdfd;
+  --overlay-description-color: #0b0b0b;
   --overlay-sub-color: #fdfdfd;
   --hyperlink-color: #0b285f;
   --hyperlink-alternate-color: orangered;
@@ -833,6 +833,10 @@ a:active {
     font-size: 2rem;
   }
 
+  .holding-page-animation {
+    width: 500px;
+  }
+
   h1 {
     font-size: 3rem;
   }
@@ -987,10 +991,9 @@ a:active {
     width: 65%;
   }
 
-  .project-image {
+  /* .project-image {
     min-height: 70vh;
     /* TODO: Delete min-height if you want to remove space between project images on project pages on large devices. It is used for the demo page only. */
-  }
 
   .project-image-container {
     flex-direction: row;
