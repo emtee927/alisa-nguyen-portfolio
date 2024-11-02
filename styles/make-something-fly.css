@@ -10,9 +10,9 @@
   left: 0;
   transform: translateX(-120%) translateY(-120%) rotateZ(0);
   position: fixed;
-  animation-delay: 10s;
+  animation-delay: 5s;
   z-index: 999999;
-  width: 5rem;
+  width: 10rem;
 }
 
 /* Keyframe values control where the element will begin

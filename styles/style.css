@@ -412,7 +412,7 @@ a:active {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  padding: 3rem;
+  padding-bottom: 0rem;
 }
 
 .hero-footer-navigation {
@@ -726,14 +726,18 @@ a:active {
   /* For more on grainy gradients see https://grainy-gradients.vercel.app/ */
 }
 
+
 .holding-page-animation {
-  margin-bottom: 10px;
+  margin:auto;
+  max-width: 350px;
 }
 
 .holding-page-title {
+  margin-top: 30px;
   font-size: 2rem;
   color: var(--holding-page-title-color);
 }
+
 
 .holding-page-footer {
   display: grid;
@@ -888,7 +892,9 @@ a:active {
   }
 
   .hero-headline-wrapper {
-    padding: 10rem 10rem;
+    padding: 5rem 10rem;
+    max-width: 1500px;
+    margin:auto;
   }
 
   .grid {
@@ -943,6 +949,7 @@ a:active {
   .footer-item-1 {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    padding: 0px 100px 100px 100px;
   }
 
   .footer-item-2 {
@@ -980,7 +987,8 @@ a:active {
     position: -webkit-sticky;
     position: sticky;
     top: 5vh;
-    padding-right: 2rem;
+    padding-right: 4rem;
+    padding-left: 2rem;
   }
 
   /* Main Project Image Area on Large Devices */
