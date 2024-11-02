@@ -486,15 +486,7 @@ a:active {
   opacity: 0.8;
 }
 
-.design-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  padding: 20px;
-  max-width: 1500px;
-  list-style-type: none; /* Remove bullet points from list */
-  margin: 0 auto;
-}
+
 
 .design-page-grid-item {
   background-color: var(--background-color);
@@ -502,33 +494,9 @@ a:active {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 10px;
 }
 
-.illustration-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  padding: 20px;
-  max-width: 1500px;
-  list-style-type: none; /* Remove bullet points from list */
-  margin: 0 auto;
-}
-
-.illustration-grid li:nth-child(0),
-.illustration-grid li:nth-child(1),
-.illustration-grid li:nth-child(7) {
-  grid-column: span 2; /* Span 2 columns for 2-item rows */
-}
-
-.illustration-page-grid-item {
-  /* background-color: #f0f0f0;
-  border: 2px solid #ccc; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2rem;
-}
 /* 
 
  █████  ██████   ██████  ██    ██ ████████ 
@@ -621,6 +589,7 @@ a:active {
 .awards-list {
   margin-bottom: 2rem;
 }
+
 
 /* Project Page 
 
@@ -1010,6 +979,41 @@ a:active {
 
   .arrow {
     padding-right: 30rem;
+  }
+
+  .design-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px;
+    max-width: 1500px;
+    list-style-type: none; /* Remove bullet points from list */
+    margin: 0 auto;
+  }
+
+  .illustration-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1500px;
+    list-style-type: none; /* Remove bullet points from list */
+    margin: 0 auto;
+  }
+  
+  .illustration-grid li:nth-child(0),
+  .illustration-grid li:nth-child(1),
+  .illustration-grid li:nth-child(7) {
+    grid-column: span 2; /* Span 2 columns for 2-item rows */
+  }
+  
+  .illustration-page-grid-item {
+    /* background-color: #f0f0f0;
+    border: 2px solid #ccc; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
   }
 }
 
