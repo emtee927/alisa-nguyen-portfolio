@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      Free Creative Portfolio Template: Mar 2024 Version | Work Page
+    </title>
+    <meta
+      name="description"
+      content="When writing a meta description, keep it between 140 and 160 characters so Google can display your entire message. Don’t forget to include your keyword!"
+    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:image" content="screenshot.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/d300c2ea15.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body class="work-page">
+    <section class="hero-work-page">
+      <header class="hero-header">
+        <div class="logo">
+          <a href="index.html">
+            <img
+              src="assets/branding-images/Logo_character.svg"
+              alt="alisa-personal-logo"
+            />
+          </a>
+        </div>
+        <ul class="branding-navigation">
+          <li>
+            <a href="work-project.html" class="custom-navigation">Work</a>
+          </li>
+          <li>
+            <a href="about.html" class="custom-navigation">About</a>
+          </li>
+          <li>
+            <a href="play.html" class="custom-navigation">Play</a>
+          </li>
+        </ul>
+      </header>
+      <div class="hero-headline-wrapper">
+        <h1 class="hero-headline">What Do I Do?</h1>
+        <h2> I Save Moments. </h2>
+      </div>
+      <footer class="hero-footer">
+        <ul class="hero-footer-navigation">
+          <li>
+            <a href="work-project.html" class="custom-category">Design</a>
+          </li>
+          <li>
+            <a href="work-illustration.html" class="custom-category"
+              >Illustration</a
+            >
+          </li>
+          <li>
+            <a href="work-photography-1.html" class="custom-category"
+              >Photography</a
+            >
+          </li>
+        </ul>
+      </footer>
+    </section>
+
+    <main class="work-wrapper">
+      <section class="portfolio">
+        <ul class="illustration-grid">
+          <li class="illustration-page-grid-item">
+            <figure>
+              <img
+                src="assets/photography/alisa-nguyen-landscape-photography-vancouver-bc.jpg"
+                alt="Building Landscape"
+              />
+            </figure>
+          </li>
+          <li class="illustration-page-grid-item">
+            <figure>
+              <img
+                src="assets/photography/alisa-nguyen-portrait-photography-vancouver-bc-1.jpg"
+                alt="Hand Photography"
+              />
+            </figure>
+          </li>
+          <li class="illustration-page-grid-item">
+            <figure>
+              <img
+                src="assets/photography/alisa-nguyen-portrait-photography-vancouver-bc-2.jpg"
+                alt="Fashion Photography"
+              />
+            </figure>
+          </li>
+          <li class="illustration-page-grid-item">
+            <figure>
+              <img
+                src="assets/photography/alisa-nguyen-fashion-portrait-photography-vancouver-bc-1.jpg"
+                alt="Portrait Illustration for K-pop Idol"
+              />
+            </figure>
+          </li>
+          <li class="illustration-page-grid-item">
+            <figure>
+              <img
+                src="assets/photography/alisa-nguyen-fashion-portrait-photography-vancouver-bc.jpg"
+                alt="Fashion Photography"
+              />
+            </figure>
+          </li>
+          <li class="illustration-page-grid-item">
+            <figure>
+              <img
+                src="assets/photography/alisa-nguyen-landscape-photography-vancouver-bc-3.jpg"
+                alt=" Everyday Monster Illustration"
+              />
+            </figure>
+          </li>
+          <li class="illustration-page-grid-item">
+            <figure>
+              <img
+                src="assets/photography/alisa-nguyen-landscape-photography-vancouver-bc-1.jpg"
+                alt="Graphic Novel One Spread"
+              />
+            </figure>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <ul class="global-footer">
+      <li class="footer-item-1">
+        <img
+          src="assets/branding-images/alisa-nguyen-logotype-children-book-illustrator-designer-in-vancouver.png"
+          alt="Logo Name Image"
+        />
+      </li>
+
+      <li class="footer-item-2">
+        <h5>Highlight Works</h5>
+        <ul class="footer-nav-list">
+          <li class="footer-nav-item">
+            <a href="work-project.html">Design</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="work-project.html">Illustration</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="work-project.html">Photography</a>
+          </li>
+        </ul>
+      </li>
+      <li class="footer-item-3">
+        <h5>Let's Connect!</h5>
+        <ul class="socials-list">
+          <li class="social-item"><a href="https://www.instagram.com/em_tee.space/">Instagram</a></li>
+          <li class="social-item"><a href="https://www.linkedin.com/in/alisa-nguyen-art/">LinkedIn</a></li>
+          <li class="social-item"><a href="mailto:alisa.nguyen.art@gmail.com">Email</a></li>
+        </ul>
+      </li>
+      <li class="footer-item-4">
+        <p><a href="#top">Smooth scroll to the top</a></p>
+        <p class="fineprint">
+          &copy; Portfolio Website 2024-2025
+          <span class="heart">❤</span>
+          by Alisa Nguyen
+        </p>
+      </li>
+    </ul>
+
+    <div id="myID" class="bottomMenu hide">
+      <a href="#">Back to top</a>
+    </div>
+
+    <div class="flier">
+      <img
+        src="assets/branding-images/Untitled_Artwork.png"
+        alt="Describe your image"
+      />
+    </div>
+
+    <script>
+      myID = document.getElementById("myID");
+
+      var myScrollFunc = function () {
+        var y = window.scrollY;
+        if (y >= 800) {
+          myID.className = "bottomMenu show";
+        } else {
+          myID.className = "bottomMenu hide";
+        }
+      };
+
+      window.addEventListener("scroll", myScrollFunc);
+    </script>
+  </body>
+</html>
