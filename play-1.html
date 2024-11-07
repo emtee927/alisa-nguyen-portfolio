@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Free Creative Portfolio Template: Mar 2024 Version | Play Page</title>
+  <meta name="description"
+    content="When writing a meta description, keep it between 140 and 160 characters so Google can display your entire message. Don’t forget to include your keyword!">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:image" content="screenshot.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <script src="https://kit.fontawesome.com/d300c2ea15.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./styles/style.css">
+  <style>
+    body {
+      position: relative;
+    }
+    #piecesContainer {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .piece {
+      width: 100px;
+      height: 100px;
+      border: 2px solid #ccc;
+      cursor: move;
+      position: absolute; /* Allow free positioning on the screen */
+    }
+  </style>
+</head>
+
+<!-- <body class="play-page">
+  <div class="play-page-wrapper">
+    <div class="play-page-inner-container">
+      <h1 class="play-page-title">Play</h1>
+      <p>Consider adding a play page. Replace this with your own.</p>
+    </div>
+  </div>
+</body>
+
+</html> -->
+
+<body>
+
+  <h1>Freely Placeable Puzzle Game</h1>
+
+  <!-- Puzzle Pieces -->
+  <div id="piecesContainer">
+    <img id="piece1" class="piece" src="assets/play/alisa-nguyen-play-page-children-book-illustrator-1.png" draggable="true" alt="Piece 1" style="top: 50px; left: 50px;">
+    <img id="piece2" class="piece" src="assets/play/alisa-nguyen-play-page-children-book-illustrator.png" draggable="true" alt="Piece 2" style="top: 50px; left: 200px;">
+    <img id="piece3" class="piece" src="assets/play/alisa-nguyen-play-page-children-book-illustrator-2.png" draggable="true" alt="Piece 3" style="top: 200px; left: 50px;">
+    <img id="piece4" class="piece" src="assets/play/alisa-nguyen-play-page-children-book-illustrator-3.png" draggable="true" alt="Piece 4" style="top: 200px; left: 200px;">
+  </div>
+
+  <script>
+    const pieces = document.querySelectorAll('.piece');
+    let selectedPiece = null;
+    let offsetX, offsetY;
+
+    pieces.forEach(piece => {
+      piece.addEventListener('mousedown', (e) => {
+        // Set the selected piece and capture initial offset
+        selectedPiece = piece;
+        offsetX = e.clientX - piece.offsetLeft;
+        offsetY = e.clientY - piece.offsetTop;
+      });
+    });
+
+    document.addEventListener('mousemove', (e) => {
+      // Move the selected piece as the mouse moves
+      if (selectedPiece) {
+        selectedPiece.style.position='absolute';
+        selectedPiece.style.left ='${e.clientX - offsetX}px';
+        selectedPiece.style.top ='${e.clientY - offsetY}px';
+      }
+    });
+
+    document.addEventListener('mouseup', () => {
+      // Release the piece when the mouse button is released
+      selectedPiece = null;
+    });
+  </script>
+
+</body>
+</html>
+
+
+
