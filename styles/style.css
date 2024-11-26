@@ -1033,8 +1033,8 @@ font-style: italic;
   
   .illustration-grid li:nth-child(0),
   .illustration-grid li:nth-child(1),
-  .illustration-grid li:nth-child(7),
-  .illustration-grid li:nth-child(8) {
+  .illustration-grid li:nth-child(10),
+  .illustration-grid li:nth-child(11) {
     grid-column: span 2; /* Span 2 columns for 2-item rows */
   }
   
