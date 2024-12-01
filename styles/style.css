@@ -305,6 +305,21 @@ a:active {
   color: var(--h1-color);
 }
 
+.custom-category-click-on {
+  background-color: var(--overlay-title-color);
+  border-radius: 20px;
+  border: 5px solid black;
+  border-width: 2px;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: var(--heading-typeface);
+}
 .heart {
   color: var(--heart-color);
 }
@@ -679,6 +694,7 @@ font-style: italic;
   padding: 0rem;
 }
 
+
 /* 
 
 ██   ██  ██████  ██      ██████  ██ ███    ██  ██████  
@@ -749,33 +765,34 @@ font-style: italic;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   align-items: center;
 }
 
 .error-header {
   width: 100%;
-  margin: auto;
   text-align: center;
   padding-top:50px;
 }
 .error-wrapper {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 80%;
-  padding: 4rem;
+  padding: 1rem;
   margin: auto;
+}
+.error-prompt{
+  padding: 0rem;
+  font-size: 1rem;
 }
 
 .error-image,
 .error-text {
-  width: 50%;
+  width: 90%;
+  
 }
 
-.error-prompt{
-  padding: 3rem;
-  font-size: 2rem;
-}
 /*
 
 ██████  ██       █████  ██    ██ 
@@ -870,7 +887,7 @@ font-style: italic;
   }
 
   .hero {
-    min-height: 100vh;
+    min-height: 95vh;
   }
   .hero-work-page {
     min-height: 10vh;
@@ -884,6 +901,7 @@ font-style: italic;
   .hero-headline-wrapper {
     padding: 5rem 10rem 2rem 10rem;
     max-width: 1500px;
+
     margin:auto;
   }
 
@@ -1033,7 +1051,7 @@ font-style: italic;
   
   .illustration-grid li:nth-child(0),
   .illustration-grid li:nth-child(1),
-  .illustration-grid li:nth-child(10),
+  .illustration-grid li:nth-child(7),
   .illustration-grid li:nth-child(11) {
     grid-column: span 2; /* Span 2 columns for 2-item rows */
   }
@@ -1053,6 +1071,26 @@ font-style: italic;
     justify-content: center;
     padding: 1rem;
   }
+
+  .error-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    padding: 4rem;
+    margin: auto;
+  }
+  .error-header {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top:50px;
+  }
+  
+  .error-image,
+  .error-text {
+    width: 50%;
+  }
+  
 }
 
 /* X-Large devices (large desktops, 1200px and up)*/
