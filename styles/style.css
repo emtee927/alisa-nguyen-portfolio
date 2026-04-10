@@ -100,7 +100,7 @@ html {
   --overlay-color: white;
   --overlay-title-color: #0b285f;
   --overlay-description-color: #0b285f;
-  --overlay-sub-color: #fdfdfd;
+  --overlay-sub-color: #0b285f;
   --hyperlink-color: #0b285f;
   --hyperlink-alternate-color: orangered;
   --hover-color: #019966;
@@ -495,7 +495,7 @@ a:active {
   flex-direction: column;
   padding: 1em;
   background-color: var(--overlay-color);
-  transition: opacity 0.3s, visibility 0.3s;
+  transition: opacity 0.5s, visibility 1s;
 }
 
 .work-page-grid-item:hover .overlay {
