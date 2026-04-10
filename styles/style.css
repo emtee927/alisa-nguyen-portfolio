@@ -500,7 +500,7 @@ a:active {
 
 .work-page-grid-item:hover .overlay {
   visibility: visible;
-  opacity: 0.4;
+  opacity: 0.9;
 }
 
 
