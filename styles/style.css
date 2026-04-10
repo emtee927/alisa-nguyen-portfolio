@@ -98,8 +98,8 @@ html {
   --accent-color: #fbcccc;
   --navy-blue: #0b285f;
   --overlay-color: #e7baba;
-  --overlay-title-color: #ffcd34;
-  --overlay-description-color: #fdfdfd;
+  --overlay-title-color: #0b285f;
+  --overlay-description-color: #0b285f;
   --overlay-sub-color: #fdfdfd;
   --hyperlink-color: #0b285f;
   --hyperlink-alternate-color: orangered;
