@@ -194,7 +194,7 @@ h4 {
 
 h5 {
   font-size: 2rem;
-  font-family: var(--heading-typeface);
+  font-family: var(--project-title-typeface);
   margin-bottom: 1rem;
   color: var(--h5-color);
 }
