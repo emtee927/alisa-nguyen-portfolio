@@ -12,6 +12,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Tektur:wght@400..900&display=swap');
 
 /*
 
@@ -80,7 +81,7 @@ html {
 
 :root {
   --body-typeface: "Fredoka", sans-serif;
-  --heading-typeface: "Lilita One", sans-serif;
+  --heading-typeface: "Luckiest Guy", sans-serif;
   --project-title-typeface: "Lilita One", sans-serif;
   --background-color: #fdfdfd;
   --background-color-about: #fdfdfd;
