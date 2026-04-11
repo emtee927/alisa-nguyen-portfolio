@@ -98,6 +98,7 @@ html {
   --accent-color: #fbcccc;
   --navy-blue: #0b285f;
   --overlay-color: #1b74b9;
+  --overlay-title-color-home:#0b285f;
   --overlay-title-color: #ffcd34;
   --overlay-description-color: #fdfdfd;
   --overlay-sub-color: #fdfdfd;
@@ -228,7 +229,7 @@ em {
 
 .overlay-title {
   font-size: 2.875rem;
-  color: var(--overlay-title-color);
+  color: var(--overlay-title-color-home);
 }
 
 .overlay-description {
