@@ -166,7 +166,7 @@ video {
 */
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: var(--heading-typeface);
   letter-spacing: 2px;
   margin-bottom: 1rem;
@@ -573,6 +573,7 @@ color: var(--h1-color);
 }
 
 .about-heading {
+  letter-spacing: 2px;
   font-size: 3rem;
   color: var(--overlay-title-color);
 }
