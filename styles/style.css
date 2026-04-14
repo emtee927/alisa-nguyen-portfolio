@@ -575,6 +575,7 @@ color: var(--h1-color);
 .about-heading {
   letter-spacing: 2px;
   font-size: 3rem;
+  font-family: var(--project-title-typeface);
   color: var(--overlay-title-color);
 }
 .about-text {
