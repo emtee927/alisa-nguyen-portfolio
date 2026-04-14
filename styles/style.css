@@ -503,7 +503,7 @@ a:active {
   transition: opacity 0.3s, visibility 0.3s;
 }
 
-.work-page-grid-item:hover .overlay {
+.work-page-grid-item.click .overlay {
   visibility: visible;
   opacity: 0.8;
 }
