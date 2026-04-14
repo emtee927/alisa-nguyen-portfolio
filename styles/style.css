@@ -585,15 +585,13 @@ color: var(--h1-color);
   margin-bottom:0;
 }
 .about-subtext{
-   border-radius: 20px;
-  border: 5px solid whitesmoke;
-  border-width: 2px;
-  padding: 10px 10px;
-  text-align: right;
-  text-decoration: none;
-  margin: 4px 4px;
+  width: fit-content;
+  border-radius: 20px;
+  border: 2px solid whitesmoke;
+  padding: 20px 20px;
+  margin: 20px 4px;
   color: white;
-font-style: italic;
+  font-style: italic;
   font-weight:200;
 }
 
