@@ -587,9 +587,14 @@ background:#fcf3f3;
 .button{
   width: fit-content;
   border-radius: 40px;
-  border: 4px solid #5090c0;
+  border: 4px solid #e5ecf1;
   padding: 8px 10px;
   margin: 10px 0px 10px 0px;
+  background: linear-gradient(
+      var(--background-color-footer),
+      var(--linear-gradient-color-1),
+      var(--linear-gradient-color-2)
+    );
   font-style: italic;
   font-weight:400;
 }
