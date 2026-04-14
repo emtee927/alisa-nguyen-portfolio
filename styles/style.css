@@ -504,20 +504,11 @@ a:active {
   transition: opacity 0.3s, visibility 0.3s;
 }
 
-.work-page-grid-item:active .overlay {
+.work-page-grid-item.active .overlay {
   visibility: visible;
   opacity: 0.8;
 }
 
-/* Grayscale filter with full-colour on hover and tap */
-  .work-page-grid-item a.overlay img {
-    filter: overlay(100);
-  }
-
-  .work-page-grid-item > a.overlay:active img,
-  .work-page-grid-item > a.overlay:hover img {
-    filter: overlay(0);
-  }
 
 
 .design-page-grid-item {
