@@ -8,6 +8,11 @@
 
 document.querySelectorAll('.work-page-grid-item').forEach(item => {
   item.addEventListener('click', () => {
+    document.querySelectorAll('.work-page-grid-item')
+      .forEach(i => {
+        if (i !== item) i.classList.remove('active');
+      });
+
     item.classList.toggle('active');
   });
 });
