@@ -530,9 +530,9 @@ a:active {
 .about-phrase{
  width: fit-content;
   border-radius: 40px;
-  border: 2px solid #1b74b9;
-  padding: 8px 35px;
-  margin: 10px 4px 30px 4px;
+  border: 4px solid #ffcd34;
+  padding: 8px 10px;
+  margin: 10px 0px 10px 0px;
   color: #1b74b9;
 font-style:oblique;
 font-weight: 500;
@@ -590,12 +590,12 @@ color: var(--h1-color);
 .button{
   width: fit-content;
   border-radius: 40px;
-  border: 2px solid #1b74b9;
-  padding: 8px 35px;
-  margin: 10px 4px 30px 4px;
+  border: 4px solid #1b74b9;
+  padding: 8px 10px;
+  margin: 10px 0px 10px 0px;
   color: #1b74b9;
   font-style: italic;
-  font-weight:200;
+  font-weight:400;
 }
 
 .about-subtext{
