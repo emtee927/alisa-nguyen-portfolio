@@ -536,7 +536,7 @@ a:active {
   color: #1b74b9;
 font-style:oblique;
 font-weight: 500;
-background: var(--background-color-holding-page);
+background:#fcf3f3;
 color: var(--h1-color);
 }
 .about {
