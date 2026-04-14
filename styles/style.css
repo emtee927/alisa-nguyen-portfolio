@@ -509,6 +509,15 @@ a:active {
   opacity: 0.8;
 }
 
+/* Grayscale filter with full-colour on hover and tap */
+  .work-page-grid-item a.overlay img {
+    filter: overlay(100);
+  }
+
+  .work-page-grid-item > a.overlay:active img,
+  .work-page-grid-item > a.overlay:hover img {
+    filter: overlay(0);
+  }
 
 
 .design-page-grid-item {
