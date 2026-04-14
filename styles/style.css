@@ -528,6 +528,12 @@ a:active {
                                            
 */
 .about-phrase{
+ width: fit-content;
+  border-radius: 40px;
+  border: 2px solid #1b74b9;
+  padding: 8px 35px;
+  margin: 10px 4px 30px 4px;
+  color: #1b74b9;
 font-style:oblique;
 font-weight: 500;
 background: var(--background-color-holding-page);
