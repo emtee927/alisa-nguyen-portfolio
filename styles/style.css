@@ -577,7 +577,7 @@ color: var(--h1-color);
   font-size: 3rem;
   font-family: var(--project-title-typeface);
   color: var(--overlay-title-color);
-  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 .about-text {
   font-size: 2rem;
