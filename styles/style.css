@@ -329,7 +329,7 @@ a:active {
   font-size: 16px;
   margin: 4px 10px;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-family: var(--project-title-typeface);
 }
 .heart {
@@ -504,7 +504,7 @@ a:active {
   transition: opacity 0.3s, visibility 0.3s;
 }
 
-.work-page-grid-item.active .overlay {
+.work-page-grid-item:active .overlay {
   visibility: visible;
   opacity: 0.8;
 }
