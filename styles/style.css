@@ -14,7 +14,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Tektur:wght@400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Tektur:wght@400..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
 
 
 /*
@@ -503,7 +503,7 @@ a:active {
   transition: opacity 0.3s, visibility 0.3s;
 }
 
-.work-page-grid-item:hover.overlay {
+.work-page-grid-item:hover .overlay {
   visibility: visible;
   opacity: 0.8;
 }
