@@ -377,14 +377,14 @@ a:active {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
-  background:#ffcd34;
+  background:var(--background-color-holding-page);
 }
 
 .hero-work-page {
   min-height: 50vh;
   display: flex;
   flex-direction: column;
-  background:#ffcd34;
+  background:var(--background-color-holding-page);
   /* background: linear-gradient(
     var(--background-color-footer),
     var(--linear-gradient-color-1),
