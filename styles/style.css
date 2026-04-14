@@ -533,11 +533,9 @@ a:active {
   border: 4px solid #e3b7b7;
   padding: 10px 20px 10px 20px;
   margin: 20px 5px;
-  color: #1b74b9;
-font-style:oblique;
+  color: #8f0505;
 font-weight: 500;
 background:#fcf3f3;
-color: var(--h1-color);
 }
 .about {
   display: grid;
