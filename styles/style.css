@@ -302,7 +302,7 @@ a:active {
 }
 
 .custom-category {
-  background-color: var(--background-color);
+  background-color: var(--background-color-footer);
   border-radius: 20px;
   border: 5px solid black;
   border-width: 2px;
@@ -377,11 +377,7 @@ a:active {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(
-    var(--background-color-footer),
-    var(--linear-gradient-color-1),
-    var(--linear-gradient-color-2)
-  );
+  background:#fdfdfd;
 }
 
 .hero-work-page {
