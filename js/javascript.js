@@ -5,3 +5,10 @@ $(document).ready(function() {
     // slideToggle("fast");
   });
 });
+
+$(document).ready(function() {
+  $('.work-page-grid-item').click(function() {
+    $('.work-page-grid-item').not(this).removeClass('active');
+    $(this).toggleClass('active');
+  });
+});
