@@ -591,8 +591,8 @@ background:#fcf3f3;
   padding: 8px 10px;
   margin: 10px 0px 10px 0px;
   background: linear-gradient(
-      var(--linear-gradient-color-2)
-      var(--background-color-footer),
+      var(--linear-gradient-color-2),
+      var(--background-color-footer)
     );
   font-style: italic;
   font-weight:400;
