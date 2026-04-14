@@ -166,7 +166,7 @@ video {
 */
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3.75rem;
   font-family: var(--heading-typeface);
   letter-spacing: 2px;
   margin-bottom: 1rem;
@@ -223,7 +223,6 @@ em {
 }
 
 .hero-headline {
-  font-size: 3.75rem;
   color: var(--h1-color);
 }
 
