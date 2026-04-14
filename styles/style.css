@@ -384,12 +384,11 @@ a:active {
   min-height: 50vh;
   display: flex;
   flex-direction: column;
-  background:var(--background-color-holding-page);
-  /* background: linear-gradient(
+  background: linear-gradient(
     var(--background-color-footer),
     var(--linear-gradient-color-1),
     var(--linear-gradient-color-2)
-  ); */
+  );
 }
 
 .branding-navigation {
