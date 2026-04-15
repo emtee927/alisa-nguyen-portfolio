@@ -633,6 +633,7 @@ margin: 10px;
   min-height: 40vh;
   background: var(--background-color-footer);
   padding: 1rem;
+  width:auto;
 }
 
 .footer-item-1 {
