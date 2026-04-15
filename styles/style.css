@@ -535,6 +535,7 @@ a:active {
   color: #8f0505;
 font-weight: 500;
 background:#fcf3f3;
+margin: 10px;
 }
 .about {
   display: grid;
@@ -585,7 +586,7 @@ background:#fcf3f3;
   margin: bottom 10px;;
 }
 .button{
-  width: fit-content;
+  width: auto;
   border-radius: 40px;
   border: 4px solid #e5ecf1;
   padding: 8px 10px;
