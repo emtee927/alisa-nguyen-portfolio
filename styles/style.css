@@ -196,9 +196,9 @@ h4 {
 }
 
 h5 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: var(--project-title-typeface);
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   color: var(--h5-color);
 }
 
