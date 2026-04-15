@@ -582,7 +582,6 @@ margin: 10px;
   padding-top: 2rem;
 }
 .about-text {
-  font-size: 2rem;
   color: white;
   margin: bottom 10px;;
 }
@@ -608,13 +607,14 @@ margin: 10px;
 
 .about-subtext{
   width: fit-content;
-  border-radius: 40px;
+  border-radius: 25px;
   border: 2px solid ;
-  padding: 8px 35px;
+  padding: 8px 10px 8px 10px;
   margin: 10px 4px 30px 4px;
   color: white;
   font-style: italic;
   font-weight:200;
+  font-size: 1rem;
 }
 
 /* Global Footer
