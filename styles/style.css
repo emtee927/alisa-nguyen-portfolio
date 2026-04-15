@@ -594,6 +594,16 @@ background:#fcf3f3;
   font-weight:400;
 }
 
+.label{
+  width: fit-content;
+  border-radius: 40px;
+  border: 4px solid #e5ecf1;
+  padding: 8px 10px;
+  margin: 10px 0px 10px 0px;
+  font-style: italic;
+  font-weight:400;
+}
+
 .about-subtext{
   width: fit-content;
   border-radius: 40px;
