@@ -597,10 +597,9 @@ margin: 10px;
 
 .button-1{
   width: fit-content;
-  font-size: 2rem;
+  font-size: 3rem;
   border-radius: 40px;
   color:#1b74b9;
-  font-kerning:2px;
   padding: 20px 20px 10px 20px;
   margin: 10px 0px 10px 0px;
   font-weight:400;
