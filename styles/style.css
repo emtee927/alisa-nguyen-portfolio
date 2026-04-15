@@ -566,6 +566,7 @@ margin: 10px;
   grid-row: 3 / 4;
   background: var(--navy-blue);
   padding: 2rem;
+  width:auto;
 }
 
 .about-item-4 {
