@@ -596,13 +596,12 @@ margin: 10px;
 }
 
 .button-1{
-  width: auto;
+  width: fit-content;
   border-radius: 40px;
   background: #ffcd34;
-  font-style: #019966;
+  color: #019966;
   padding: 8px 10px;
   margin: 10px 0px 10px 0px;
-  font-style: italic;
   font-weight:400;
 }
 
