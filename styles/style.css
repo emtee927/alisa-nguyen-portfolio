@@ -595,6 +595,17 @@ margin: 10px;
   font-weight:400;
 }
 
+.button-1{
+  width: auto;
+  border-radius: 40px;
+  background: #ffcd34;
+  font-style: #019966;
+  padding: 8px 10px;
+  margin: 10px 0px 10px 0px;
+  font-style: italic;
+  font-weight:400;
+}
+
 .label{
   width: fit-content;
   border-radius: 40px;
